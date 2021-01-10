@@ -52,7 +52,7 @@ public class LocalDatastoreHelper extends BaseEmulatorHelper<DatastoreOptions> {
   private boolean storeOnDisk;
 
   // Gcloud emulator settings
-  private static final String GCLOUD_CMD_TEXT = "gcloud beta emulators datastore start";
+  private static final String GCLOUD_CMD_TEXT = "gcloud --quiet beta emulators datastore start";
   private static final String GCLOUD_CMD_PORT_FLAG = "--host-port=";
   private static final String VERSION_PREFIX = "cloud-datastore-emulator ";
   private static final String MIN_VERSION = "1.2.0";
